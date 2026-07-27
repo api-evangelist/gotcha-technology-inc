@@ -1,8 +1,28 @@
 aid: gotcha-technology-inc
 name: GOTCHA Technology Inc.
-description: GOTCHA Technology Inc. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  GOTCHA Technology Inc. is an emotion-AI company that uses computer vision to
+  detect human micro-emotions through the analysis of facial behavior, grounded
+  in behavioral science research. GOTCHA offers two models: an evaluative model
+  that measures customer satisfaction and service quality, and an investigatory
+  model aimed at fraud and deception detection. The technology is applied across
+  customer service, HR, legal services, mental health, and pharma. Founded and
+  led by CEO Anna Gevorgyan, GOTCHA graduated from the 500 Global and SAP
+  Startup Factory accelerator programs and won the Cannes Neurons Award (retail)
+  at WAICF 2025. This profile currently exposes no public developer API,
+  documentation, or specification surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gotcha.technology/assets/img/logo-light.png
 url: https://raw.githubusercontent.com/api-evangelist/gotcha-technology-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Computer Vision
+- Emotion AI
+- Facial Analysis
+- Machine Learning
+- Affective Computing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://gotcha.technology
+- type: Support
+  url: https://gotcha.technology/contact
+- type: FAQ
+  url: https://gotcha.technology/FAQ
+- type: News
+  url: https://gotcha.technology/news
+- type: DomainSecurity
+  url: security/gotcha-technology-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
