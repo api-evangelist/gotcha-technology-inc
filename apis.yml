@@ -1,5 +1,5 @@
 aid: gotcha-technology-inc
-name: GOTCHA Technology Inc.
+name: GOTCHA Technology
 description: >-
   GOTCHA Technology Inc. is an emotion-AI company that uses computer vision to
   detect human micro-emotions through the analysis of facial behavior, grounded
@@ -47,10 +47,10 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Emotion AI
 - Facial Analysis
-- Machine-Learning
+- Machine Learning
 - Affective Computing
 tags_raw:
 - Company
@@ -60,6 +60,8 @@ tags_raw:
 - Facial Analysis
 - Machine Learning
 - Affective Computing
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -82,3 +84,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: GOTCHA Technology Inc.
